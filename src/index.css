@@ -12,19 +12,24 @@ code {
     monospace;
 }
 
-.App {
-  margin: 0 auto;
-  width: 100%;
+.container {
+  width: 80%;
   max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: rgba(255, 255, 255, 0.2);
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
-
 .top-bar {
-  background-color: #282c34;
-  min-height: 10vh;
+  background-color: aquamarine;
+  height: 60px;
   display: flex;
+  flex-direction: row;
   align-items: center;
-  color: white;
-  font-size: calc(10px + 2vmin);
-  padding: 0 2rem;
+  text-align: center;
+  justify-content: center;
+  color: black;
+  font-size: large;
 }
