@@ -33,3 +33,16 @@ code {
   color: black;
   font-size: large;
 }
+
+.content {
+  margin: 50px auto;
+  display: flex;
+  justify-content: center;
+}
+
+.content img {
+  border: bisque 7px solid;
+  border-radius: 50%;
+  width: 50%;
+  max-width: 200px;
+}
