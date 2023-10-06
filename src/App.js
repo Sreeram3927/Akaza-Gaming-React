@@ -11,6 +11,7 @@ function App() {
 
       <div className="content">
         <img src={img} alt="My Logo"/>
+        <div className="line"></div>
       </div>
 
     </div>
