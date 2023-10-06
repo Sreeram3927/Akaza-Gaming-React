@@ -11,3 +11,20 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.App {
+  margin: 0 auto;
+  width: 100%;
+  max-width: 800px;
+}
+
+
+.top-bar {
+  background-color: #282c34;
+  min-height: 10vh;
+  display: flex;
+  align-items: center;
+  color: white;
+  font-size: calc(10px + 2vmin);
+  padding: 0 2rem;
+}
