@@ -1,5 +1,9 @@
 import './index.css';
-import img from './assets/logo.jpg';
+import logo from './assets/logo.jpg';
+import ig from './assets/instagram.png';
+import fb from './assets/facebook.png';
+import ds from './assets/discord.png';
+import yt from './assets/youtube.png';
 
 function App() {
   return (
@@ -10,8 +14,23 @@ function App() {
       </div>
 
       <div className="content">
-        <img src={img} alt="My Logo"/>
+        <img src={logo} alt="My Logo"/>
         <div className="line"></div>
+      </div>
+
+      <div className="bottom-bar">
+        <button className='socials'>
+          <img src={ig} alt="Instagram" />
+        </button>
+        <button className='socials'>
+          <img src={fb} alt="Facebook" />
+        </button>
+        <button className='socials'>
+          <img src={ds} alt="Discord" />
+        </button>
+        <button className='socials'>
+          <img src={yt} alt="Youtube" />
+        </button>
       </div>
 
     </div>
