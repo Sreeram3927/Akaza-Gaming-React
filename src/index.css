@@ -70,10 +70,12 @@ code {
 }
 
 .content img {
-  border: bisque 7px solid;
+  border-color: #a93a3a;
+  border-style: solid;
   border-radius: 50%;
   width: 40%;
   max-width: 200px;
+  box-shadow: 0 0 10px 5px #a93a3a;
 }
 
 .bottom-bar {
