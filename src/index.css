@@ -80,6 +80,7 @@ code {
   width: 40%;
   max-width: 200px;
   transition: all 0.2s ease;
+  cursor: alias;
 }
 
 .content img:hover {
