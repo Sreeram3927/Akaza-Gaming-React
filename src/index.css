@@ -39,15 +39,17 @@ code {
 }
 
 .top-bar {
-  background-color: aquamarine;
+  /* background-color: aquamarine; */
   height: 60px;
   display: flex;
   flex-direction: row;
   align-items: center;
-  text-align: center;
   justify-content: center;
   color: black;
-  font-size: large;
+  font-weight: 600;
+  font-family: 'shadows into light', cursive;
+  letter-spacing: calc(0.2em + 0.02vw);
+  font-size: calc(30px + 3vw);
 }
 
 .content {
