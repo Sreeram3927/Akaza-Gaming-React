@@ -53,3 +53,29 @@ code {
   height: 100px;
   background-color: bisque;
 }
+
+.bottom-bar {
+  background-color: aquamarine;
+  height: 80px;
+  padding-left: 20px;
+  padding-right: 20px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.socials {
+  background-color: transparent;
+  border: none;
+  margin: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.socials img {
+  width: 50%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
