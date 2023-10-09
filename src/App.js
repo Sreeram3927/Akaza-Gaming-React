@@ -14,8 +14,8 @@ function App() {
       </div>
 
       <div className="content">
+        <h3 className='subtitle'>My Logo</h3>
         <img src={logo} alt="My Logo"/>
-        <div className="line"></div>
       </div>
 
       <div className="bottom-bar">

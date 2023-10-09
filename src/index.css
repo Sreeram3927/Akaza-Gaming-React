@@ -52,6 +52,16 @@ code {
   font-size: calc(30px + 3vw);
 }
 
+.subtitle {
+  font-family: 'indie flower', cursive;
+  font-size: calc(25px + 1vw);
+  letter-spacing: calc(0.075em + 0.02vw);
+  font-weight: 550;
+  margin-top: -7px;
+  margin-bottom: 40px;
+  text-align: center;
+}
+
 .content {
   margin: 50px auto;
   display: flex;
@@ -64,12 +74,6 @@ code {
   border-radius: 50%;
   width: 40%;
   max-width: 200px;
-}
-
-.line {
-  width: 7px;
-  height: 100px;
-  background-color: bisque;
 }
 
 .bottom-bar {
