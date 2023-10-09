@@ -32,10 +32,12 @@ code {
   max-width: 800px;
   margin: 25px auto;
   padding: 20px;
-  background-color: rgba(255, 255, 255, 0.2);
+  background-color: rgba(0, 0, 0, 0.327);
+  border: solid;
+  border-color: rgba(158, 158, 158, 0.67);
   border-radius: 10px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-  backdrop-filter: blur(7px);
+  backdrop-filter: blur(8px);
 }
 
 .top-bar {
@@ -45,7 +47,7 @@ code {
   flex-direction: row;
   align-items: center;
   justify-content: center;
-  color: black;
+  color: rgb(179, 179, 179);
   font-weight: 600;
   font-family: 'shadows into light', cursive;
   letter-spacing: calc(0.2em + 0.02vw);
@@ -54,6 +56,7 @@ code {
 
 .subtitle {
   font-family: 'indie flower', cursive;
+  color: rgb(179, 179, 179);
   font-size: calc(25px + 1vw);
   letter-spacing: calc(0.075em + 0.02vw);
   font-weight: 550;
@@ -70,17 +73,18 @@ code {
 }
 
 .content img {
-  border-color: #a93a3a;
+  border-color: rgb(179, 179, 179);
   border-style: solid;
   border-radius: 50%;
   width: 40%;
   max-width: 200px;
-  box-shadow: 0 0 10px 5px #a93a3a;
+  box-shadow: 0 0 10px 5px rgb(179, 179, 179);
 }
 
 .bottom-bar {
-  background-color: aquamarine;
+  /* background-color: aquamarine; */
   height: 80px;
+  margin: 20px 0px 13px 0px;
   padding-left: 20px;
   padding-right: 20px;
   display: flex;
@@ -92,14 +96,15 @@ code {
 .socials {
   background-color: transparent;
   border: none;
+  border-radius: 15px;
   margin: 5px;
   cursor: pointer;
   transition: background-color 0.3s ease;
 }
 
 .socials:hover {
-  background-color: rgba(255, 255, 255, 0.2);
-  backdrop-filter: blur(10px);
+  background-color: #a93a3a89;
+  backdrop-filter: blur(50px);
 }
 
 .socials img {
