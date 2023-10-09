@@ -20,16 +20,16 @@ function App() {
 
       <div className="bottom-bar">
         <button className='socials'>
-          <img src={ig} alt="Instagram" />
+          <a href='https://www.instagram.com/demon__530/' target='_blank'><img src={ig} alt="Instagram" /></a>
         </button>
         <button className='socials'>
-          <img src={fb} alt="Facebook" />
+          <a href='https://akaza-gaming.web.app/' target='_blank'><img src={fb} alt="Facebook" /></a>
         </button>
         <button className='socials'>
-          <img src={ds} alt="Discord" />
+          <a href='https://discord.gg/YVYrrHRmZE' target='_blank'><img src={ds} alt="Discord" /></a>
         </button>
         <button className='socials'>
-          <img src={yt} alt="Youtube" />
+          <a href='https://www.youtube.com/channel/UCdhCNdxPjm3o2nIkyU2du_g' target='_blank'><img src={yt} alt="Youtube" /></a>
         </button>
       </div>
 
