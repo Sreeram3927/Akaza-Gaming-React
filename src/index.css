@@ -89,6 +89,11 @@ code {
   transition: background-color 0.3s ease;
 }
 
+.socials:hover {
+  background-color: rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(10px);
+}
+
 .socials img {
   width: 50%;
   height: auto;
