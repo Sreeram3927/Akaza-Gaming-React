@@ -12,6 +12,17 @@ code {
     monospace;
 }
 
+.page {
+  background-image: url('./assets/Bg 1.jpg');
+  background-position: center center;
+  overflow-y: hidden;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+}
+
 .container {
   width: 80%;
   max-width: 800px;
