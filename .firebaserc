@@ -1,5 +1,15 @@
 {
   "projects": {
     "default": "akaza-gaming"
-  }
+  },
+  "targets": {
+    "akaza-gaming": {
+      "hosting": {
+        "production": [
+          "akazagaming"
+        ]
+      }
+    }
+  },
+  "etags": {}
 }
