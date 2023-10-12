@@ -4,11 +4,7 @@
   },
   "targets": {
     "akaza-gaming": {
-      "hosting": {
-        "production": [
-          "akazagaming"
-        ]
-      }
+      "hosting": {}
     }
   },
   "etags": {}
