@@ -47,22 +47,22 @@ code {
   border-color: rgba(158, 158, 158, 0.67);
   border-radius: 10px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-  backdrop-filter: blur(8px);
+  backdrop-filter: blur(9px);
   animation: slide-up 1.0s ease-in-out;
 }
 
 @keyframes slide-up {
   0% {
-    backdrop-filter: blur(0px);
     opacity: 0;
-    transform: translateY(50px);
+    transform: translateY(150px);
   }
-  50% {
+  35% {
+    backdrop-filter: blur(0px);
     opacity: 1;
     transform: translateY(0px);
   }
   100% {
-    backdrop-filter: blur(8px);
+    backdrop-filter: blur(9px);
   }
 }
 
@@ -107,7 +107,7 @@ code {
   scale: 0.9;
   transition: all 0.2s ease;
   cursor: alias;
-  animation: expand 1.0s ease-in-out; 
+  animation: expand 0.8s ease-in-out; 
 }
 
 @keyframes expand {
@@ -145,6 +145,16 @@ code {
   cursor: pointer;
   transition: all 0.3s ease;
   scale: 1;
+  animation: slide-left 0.8s ease-in-out;
+}
+
+@keyframes slide-left {
+  0% {
+    transform: translateY(200px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
 }
 
 .socials:hover {
