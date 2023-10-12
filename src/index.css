@@ -48,7 +48,22 @@ code {
   border-radius: 10px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   backdrop-filter: blur(8px);
+  animation: slide-up 1.0s ease-in-out;
+}
 
+@keyframes slide-up {
+  0% {
+    backdrop-filter: blur(0px);
+    opacity: 0;
+    transform: translateY(50px);
+  }
+  50% {
+    opacity: 1;
+    transform: translateY(0px);
+  }
+  100% {
+    backdrop-filter: blur(8px);
+  }
 }
 
 .top-bar {

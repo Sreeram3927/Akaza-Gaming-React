@@ -1,4 +1,5 @@
 import './index.css';
+import React, { useState, useEffect } from 'react';
 import logo from './assets/logo.jpg';
 import ig from './assets/instagram.png';
 import fb from './assets/facebook.png';
@@ -6,8 +7,17 @@ import ds from './assets/discord.png';
 import yt from './assets/youtube.png';
 
 function App() {
+
+  const [loaded, setLoaded] = useState(false);
+  
+  useEffect(() => {
+    setTimeout(() => {
+      setLoaded(true);
+    }, 1000);
+  }, []);
+
   return (
-    <div className="container">
+    loaded && <div className="container">
 
       <div className="top-bar">
         Akaza Gaming
